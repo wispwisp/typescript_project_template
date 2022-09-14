@@ -56,3 +56,15 @@ yarn add --dev eslint eslint-watch eslint-config-airbnb-base eslint-plugin-impor
 check
 
 `yarn lint`
+
+## Jest (TODO: npm version upgrade)
+
+`yarn add --dev jest ts-jest @types/jest`
+
+`npx ts-jest config:init`
+
+`yarn test`
+
+## Cypress
+
+TODO ?

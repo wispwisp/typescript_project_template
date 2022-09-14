@@ -1,3 +1,3 @@
-const greeting: string = 'Hello World!';
-
-console.log(greeting);
+// export default function sum(a: number, b: number): number {
+//     return a + b;
+// }
