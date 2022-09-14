@@ -41,8 +41,18 @@ check
 `yarn prettier --write .`
 
 ##### prettier-vscode
+
 ```
 "editor.formatOnSave": true,
 "editor.defaultFormatter": "esbenp.prettier-vscode",
 ```
 
+## ESLint
+
+```
+yarn add --dev eslint eslint-watch eslint-config-airbnb-base eslint-plugin-import @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-config-prettier eslint-plugin-prettier
+```
+
+check
+
+`yarn lint`
