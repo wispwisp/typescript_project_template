@@ -12,6 +12,15 @@
 
 `yarn build`
 
+##### TODO: remove --ignore-engines
+
 `yarn add html-webpack-plugin --dev --ignore-engines`
 
 `yarn add webpack-dev-server --dev --ignore-engines`
+
+`yarn serve`
+
+`yarn add typescript --dev`
+
+`yarn add ts-loader --dev`
+

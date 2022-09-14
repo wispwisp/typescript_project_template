@@ -6,7 +6,7 @@ module.exports = {
     mode: 'development',
     context: path.join(__dirname, 'app'),
     entry: [
-        './js/app.js',
+        './js/app.ts',
     ],
     output: {
         path: path.join(__dirname, 'public'),
@@ -15,11 +15,9 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.js$/,
+                test: /\.ts$/,
+                use: 'ts-loader',
                 exclude: /node_modules/,
-                use: [
-                    'babel-loader',
-                ],
             },
         ],
     },
